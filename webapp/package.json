@@ -1,0 +1,60 @@
+{
+  "name": "IoT-Mapper",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "start": "vue-cli-service serve --open"
+  },
+  "dependencies": {
+    "@turf/convex": "^6.3.0",
+    "core-js": "^3.6.5",
+    "leaflet": "^1.7.1",
+    "math": "^0.0.3",
+    "math.js": "^1.1.46",
+    "mathjs": "^9.3.0",
+    "mdbvue": "6.7.2",
+    "nominatim-geocoder": "^0.1.4",
+    "register-service-worker": "^1.7.1",
+    "sass-loader": "^11.0.1",
+    "serve": "^11.3.2",
+    "turf": "^3.0.14",
+    "vue": "^2.6.11",
+    "vue-carousel": "^0.18.0",
+    "vue-router": "^3.2.0",
+    "vue-worker": "^1.2.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-pwa": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-cli-plugin-mdb": "~2.1.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
